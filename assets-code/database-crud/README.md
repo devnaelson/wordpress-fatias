@@ -1,11 +1,10 @@
-## Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com 
+## Database crud dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com 
 ---
 
 #####
+https://codex.wordpress.org/Options_API
 
 -- Possívels funcionalidades com esse pequeno código.
-
-## Titulo disabilitar e habilitar [LINK](https://github.com/NaelsonBrasil/wordpress-fatias/tree/main/assets-code/titulo)
 
 ###### META BOX Wordpress
 ###### Mudar title wordpress PRINCIPAL objetivo
