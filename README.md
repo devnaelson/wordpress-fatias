@@ -1,8 +1,8 @@
-## Disponivél Title meta box disabilitar/habilitar Credits aquila indian, dissasembly NaelsonBrasil:naelson.g.saraiva@gmail.com
-
+## Disponivél Title disabilitar/habilitar Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com
+### Key META BOX
 ---
 
-##### H5
+#####
 
 ```PHP
 $the_post_id = get_the_ID();
@@ -34,13 +34,14 @@ if (is_single() || is_page()) {
 	{
 		$screens = ['post'];
 		foreach ($screens as $screen) {
-			add_meta_box(
-				'hide-page-title',           // Unique ID
-				__('Hide page title', 'aquila'),  // Box title
-				[$this, 'custom_meta_box_html'],  // Content callback, must be of type callable
-				$screen,                   // Post type
-				'side' // context
-			);
+            /*
+            Unique ID
+            Box title
+            Content callback, must be of type callable
+            Post type
+            context
+            */
+			add_meta_box('hide-page-title',__('Hide page title', 'aquila'),[$this, 'custom_meta_box_html'],$screen,'side');
 		}
 	}
 
@@ -91,20 +92,20 @@ if (is_single() || is_page()) {
 		 * When the post is saved or updated we get $_POST available
 		 * Check if the current user is authorized
 		 */
-		if (!current_user_can('edit_post', $post_id)) 
+		if (!current_user_can('edit_post', $post_id))
 			return;
-		
+
 
 		/**
 		 * Check if the nonce value we received is the same we created.
 		 */
 		if (!isset($_POST['hide_title_meta_box_nonce_name']) || !wp_verify_nonce($_POST['hide_title_meta_box_nonce_name'], plugin_basename(__FILE__)))
 			return;
-		
 
-		if (array_key_exists('aquila_hide_title_field', $_POST)) 
+
+		if (array_key_exists('aquila_hide_title_field', $_POST))
 			update_post_meta($post_id, '_hide_page_title', $_POST['aquila_hide_title_field']);
-		
+
 	}
     ?>
 ```
