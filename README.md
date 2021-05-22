@@ -62,7 +62,7 @@ if (is_single() || is_page()) {
 		 * 'hide_title_meta_box_nonce_name' and unique nonce input value.
 		 */
 		wp_nonce_field(plugin_basename(__FILE__), 'hide_title_meta_box_nonce_name');
-
+?>
 		<label for="aquila-field"><?php esc_html_e('Hide the page title', 'aquila'); ?></label>
 		<select name="aquila_hide_title_field" id="aquila-field" class="postbox">
 			<option value=""><?php esc_html_e('Select', 'aquila'); ?></option>
@@ -73,7 +73,7 @@ if (is_single() || is_page()) {
 				<?php esc_html_e('No', 'aquila'); ?>
 			</option>
 		</select>
-
+<?php>
 	}
 
 	/**
@@ -106,6 +106,7 @@ if (is_single() || is_page()) {
 			update_post_meta($post_id, '_hide_page_title', $_POST['aquila_hide_title_field']);
 		
 	}
+    ?>
 ```
 
 ---
