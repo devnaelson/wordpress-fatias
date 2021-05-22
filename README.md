@@ -1,5 +1,4 @@
-## Disponivél Title disabilitar/habilitar Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com
-### KEY: META BOX, CHANGE TITLE, UPDATE DB, REQUEST FONT TO BACKEND 
+## Disponivél Title disabilitar/habilitar Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com 
 ---
 
 #####
@@ -116,3 +115,10 @@ if (is_single() || is_page()) {
     add_action('add_meta_boxes', [$this, 'add_custom_meta_box']);
     add_action('save_post', [$this, 'save_post_meta_data']);
 ```
+
+-- Possívels funcionalidade com esse pequenos código.
+
+###### META BOX Wordpress
+###### Mudar title wordpress PRINCIPAL objetivo
+###### atualizar banco de dados
+###### Request PHP wordpress
