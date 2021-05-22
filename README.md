@@ -1,4 +1,4 @@
-## Titulo disabilitar/habilitar Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com 
+## Titulo disabilitar e habilitar Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com 
 ---
 
 #####
