@@ -1,4 +1,4 @@
-## Disponivél Title disabilitar/habilitar Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com 
+## Titulo disabilitar/habilitar Credits Aquila Indian, dissasembly by NaelsonBrasil:naelson.g.saraiva@gmail.com 
 ---
 
 #####
@@ -116,9 +116,9 @@ if (is_single() || is_page()) {
     add_action('save_post', [$this, 'save_post_meta_data']);
 ```
 
--- Possívels funcionalidade com esse pequenos código.
+-- Possívels funcionalidades com esse pequeno código.
 
 ###### META BOX Wordpress
 ###### Mudar title wordpress PRINCIPAL objetivo
-###### atualizar banco de dados
+###### Atualizar banco de dados Wordpress
 ###### Request PHP wordpress
