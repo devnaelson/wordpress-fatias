@@ -5,7 +5,7 @@
 
 -- Possívels funcionalidades com esse pequeno código.
 
-## Titulo disabilitar e habilitar 
+## Titulo disabilitar e habilitar [LINK](https://github.com/NaelsonBrasil/wordpress-fatias/tree/main/assets-code/titulo)
 
 ###### META BOX Wordpress
 ###### Mudar title wordpress PRINCIPAL objetivo
